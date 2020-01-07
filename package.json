@@ -10,7 +10,8 @@
     "build": "npm run -s build:rollup",
     "build:webpack": "mkdirp build && ncp src/index.html build/index.html && webpack -p",
     "build:rollup": "rm -rf build && mkdirp build/todomvc-common && ncp src/index.html build/index.html && rollup -c rollup.config.js && cp node_modules/todomvc-common/base.* build/todomvc-common/ && cp node_modules/todomvc-app-css/index.css build/todomvc.css",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "bundle": "gen-bundle -dir build -baseURL https://preact-todom.vc/ -primaryURL https://preact-todom.vc/ -o todomvc.wbn"
   },
   "keywords": [
     "preact"
