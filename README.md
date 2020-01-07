@@ -4,7 +4,7 @@ Forked from [developit/preact-todomvc](https://github.com/developit/preact-todom
 
 依存コンテンツを1つにまとめて配信する方法
 
-署名を行いコンテンツの物理的なURLと論理的なURLを差し替えて表示できるようにするSigned HTTP Exchangesは単一のResponseに対する署名だが、WebBundleと合わせることで依存コンテンツ全てに対して有効できる
+署名を行いコンテンツの物理的なURLと論理的なURLを差し替えて表示できるようにするSigned HTTP Exchangesは単一のResponseに対する署名だが、WebBundleと合わせることで依存コンテンツ全てに対して有効にできる
 
 Signed HTTP Exchanges（SXG） + WebBundle = WebPackaging
 
@@ -13,8 +13,8 @@ Signed HTTP Exchanges（SXG） + WebBundle = WebPackaging
 メリット
 
 1. 任意のサーバーなどから、AMPのようにCacheから取得しながら任意のURLを表示できる
-2. SXGにより内容が保証され、WebBundleによって配布が容易なミラーリング・スナップショットが可能になる
-3. 依存関係を一度で取得できるため、JSをbundleすることなく、ES Modulesで記述することができるようになる可能性がある
+2. SXGにより内容が保証され、WebBundleによって配布が容易なミラーリングやスナップショットが可能になる
+3. 依存関係を一度で取得できるため、JSをbundleすることなく、ES Modulesで記述したりできるようになるかも...？
 
 ## サンプルの使用方法
 
