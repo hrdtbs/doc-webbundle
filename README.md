@@ -32,9 +32,9 @@ yarn build
 yarn bundle
 ```
 
-3. [chrome://flags/#web-bundles](chrome://flags/#web-bundles)を開く
+3. chrome://flags/#web-bundlesを開く
 
-> Use Chrome version 80~ or Chrome Canary 
+> バージョン80以上のChromeかChrome Canaryを使用
 
 4. Web Bundles flagを有効化
 
